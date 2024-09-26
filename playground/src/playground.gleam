@@ -1,5 +1,6 @@
-import gleam/io
+import games
+import lustre
 
 pub fn main() {
-  io.println("Hello from playground!")
+  lustre.element(games.main())
 }

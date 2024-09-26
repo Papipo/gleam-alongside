@@ -1,5 +1,6 @@
-import gleam/io
+import lustre/element
+import lustre/element/html
 
 pub fn main() {
-  io.println("Hello from games!")
+  html.div([], [element.text("This comes from games")])
 }
